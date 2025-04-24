@@ -1,0 +1,15 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/btn.css";
+@import "blocks/header.css";
+@import "blocks/hero.css";
+@import "blocks/advantages.css";
+@import "blocks/card-advantages.css";
+@import "blocks/footer.css";
