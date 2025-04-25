@@ -6,7 +6,7 @@
 }
 
 .card-advantages--reverse .card-advantages__content {
-  padding: 100px 0 100px 140px;
+  margin: auto auto auto 140px; 
 }
 
 .card-advantages--heavenly {
@@ -21,7 +21,7 @@
   margin: auto 132px auto auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .card-advantages__heading {
@@ -40,4 +40,6 @@
 
 .card-advantages__btn {
   margin: 24px 0 0 0;
+  padding: 14px 32px;
 }
+

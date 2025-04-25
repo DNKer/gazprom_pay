@@ -33,7 +33,7 @@
   padding: 6px;
 }
 
-.header__wrapper-btn--lang {
+.header__wrapper-lang {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
