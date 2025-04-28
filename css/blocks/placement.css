@@ -1,0 +1,28 @@
+/* .placement__advantages {
+    border-radius: 16px;
+    background-color: #F6F6F6;
+} */
+
+.placement__heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1E222E;
+    max-width: 520px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.placement__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.placement__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+}

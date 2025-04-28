@@ -6,7 +6,7 @@
 }
 
 .card-advantages--reverse .card-advantages__content {
-  margin: auto auto auto 140px; 
+  margin: 172px auto auto 140px; 
 }
 
 .card-advantages--heavenly {
@@ -36,10 +36,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  margin: 0 0 32px 0;
 }
 
 .card-advantages__btn {
-  margin: 24px 0 0 0;
+  margin: 0;
   padding: 14px 32px;
 }
 
