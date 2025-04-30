@@ -18,7 +18,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 326px;
+    grid-template-rows: 100%;
     align-items: start;
     gap: 32px;
 }
