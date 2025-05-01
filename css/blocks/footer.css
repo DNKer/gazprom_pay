@@ -1,16 +1,22 @@
 .footer {
-  padding: 20px 0;
+  margin: 0;
+  padding: 40px 100px;
 }
 
 .footer__wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.footer__description,
+.footer__logo-image {
+  margin: 0 0 40px 0;
+}
+
 .footer__box {
-  margin: 0 0 20px 0;
+  margin: 0 0 24px 0;
 }
 
 .footer__box {
@@ -19,13 +25,26 @@
   row-gap: 10px;
 }
 
+.footer__box__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2px;
+}
+
 .footer__phone-text {
+  display: block;
   margin: 0;
-  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #6A6E80;
 }
 
 .footer__phone-link {
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .footer__btn {

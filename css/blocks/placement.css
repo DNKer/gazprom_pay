@@ -1,3 +1,7 @@
+.placement {
+    margin: 0 0 100px 0;
+}
+
 .placement__heading {
     font-weight: 700;
     font-size: 32px;
@@ -8,24 +12,18 @@
     margin: 0 auto 40px;
 }
 
-.placement__wrapper {
-    
-    margin: 0 0 100px 0;
-}
-
 .placement__list {
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 326px;
+    /* grid-template-rows: 530px; */
     align-items: start;
     gap: 32px;
 }
 
 .placement__item {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
 }
