@@ -17,13 +17,11 @@
 }
 
 .footer__box {
-  margin: 0 0 24px 0;
-}
-
-.footer__box {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  margin: 0 0 24px 0;
+  padding: 0;
 }
 
 .footer__box-wrapper {
@@ -85,4 +83,21 @@
 
 .footer__box-wrapper--location {
   gap: 8px;
+}
+
+.footer__inner-central {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  margin: 0;
+  padding: 20px 0 0 0;
+  column-gap: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1E222E;
+}
+
+.footer__detailed {
+  margin: 0;
+  padding: 0;
 }
