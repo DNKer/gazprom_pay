@@ -18,6 +18,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: 530px; */
+    grid-template-rows: 100%;
     align-items: start;
     gap: 32px;
 }
