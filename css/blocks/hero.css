@@ -15,8 +15,12 @@
   align-items: flex-start;
 }
 
+.hero__content--p {
+  margin: 196px 0 0 0;
+}
+
 .hero__heading {
-  margin: 0 0 24px 0;
+  margin: 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -27,7 +31,7 @@
 }
 
 .hero__description {
-  margin: 0 0 48px 0;
+  margin: 24px 0 0 0;
   font-size: 18px;
   line-height: 24px;
 }
